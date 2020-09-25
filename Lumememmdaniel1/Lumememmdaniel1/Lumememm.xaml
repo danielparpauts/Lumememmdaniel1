@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lumememmdaniel1.Lumememm">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="white"
+                   Padding="30"
+                   BorderColor="Black"
+                   CornerRadius="40"
+                   Margin="150,-1">
+                <Label x:Name="Small"
+                       FontSize="10">
+                </Label>
+            </Frame>
+
+            <Frame BackgroundColor="DeepSkyBlue"
+                   Padding="45,10"
+                   BorderColor="Black"
+                   CornerRadius="120"
+                   Margin="160,-5">
+                <Label x:Name="Medium"
+                       FontSize="20">
+                </Label>
+            </Frame>
+            <Frame BackgroundColor="DeepSkyBlue"
+                   Padding="50"
+                   BorderColor="Black"
+                   CornerRadius="140"
+                   Margin="140,0">
+                
+            </Frame>
+            <Frame BackgroundColor="DeepSkyBlue"
+                   Padding="70"
+                   BorderColor="Black"
+                   CornerRadius="120"
+                   Margin="120,-5">
+            </Frame>
+
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="ON"
+                        Text="НАЖМИ"
+                        HorizontalOptions="Center"
+                        Clicked="ON_Clicked"/>
+                <Button x:Name="OFF"
+                        Text="ВЫКЛЮЧИТЬ"
+                        HorizontalOptions="EndAndExpand"
+                        Clicked="OFF_Clicked"/>
+                <Button x:Name="Random"
+                        Text="Random"
+                        HorizontalOptions="EndAndExpand"
+                        Clicked="Random_Clicked"/>
+                <Button x:Name="Oma"
+                        Text="Minu oma"
+                        HorizontalOptions="EndAndExpand"
+                        Clicked="Oma_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
