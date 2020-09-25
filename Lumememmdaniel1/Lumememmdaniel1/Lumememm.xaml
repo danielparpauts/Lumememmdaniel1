@@ -10,7 +10,7 @@
                    CornerRadius="40"
                    Margin="150,-1">
                 <Label x:Name="Small"
-                       FontSize="10">
+                       FontSize="12">
                 </Label>
             </Frame>
 
