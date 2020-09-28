@@ -10,7 +10,7 @@ namespace Lumememmdaniel1
         {
             InitializeComponent();
 
-            MainPage = new Lumememm();
+            MainPage = new Lund();
         }
 
         protected override void OnStart()
